@@ -3,7 +3,7 @@ import java.util.*;
 public class sai{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        /*
+        
         //map declaration
         Map<Integer, Integer> mpp = new HashMap<Integer, Integer>();
         //vector declaration
@@ -24,9 +24,9 @@ public class sai{
         for (Integer it : mpp.keySet()){ // to print the map keys and respective values
             System.out.println("key:"+it+" value:"+mpp.get(it));
         }
-        */
+    
         //=================================================Collections ArrayList============================================================
-        /*
+        
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(5);
         numbers.add(2);
@@ -37,28 +37,28 @@ public class sai{
 
         // Sort the list in ascending order
         Collections.sort(numbers);
-        System.out.println("Sorted ArrayList: " + numbers);
+        //System.out.println("Sorted ArrayList: " + numbers);
 
         // Reverse the order of the elements in the list
         Collections.reverse(numbers);
-        System.out.println("Reversed ArrayList: " + numbers);
+        //System.out.println("Reversed ArrayList: " + numbers);
 
         // Shuffle the order of the elements in the list
         Collections.shuffle(numbers);
-        System.out.println("Shuffled ArrayList: " + numbers);
+        //System.out.println("Shuffled ArrayList: " + numbers);
 
         // Get the maximum element in the list
         int max = Collections.max(numbers);
-        System.out.println("Maximum element in the ArrayList: " + max);
+        //System.out.println("Maximum element in the ArrayList: " + max);
 
         // Replace all occurrences of 5 with 100
         Collections.replaceAll(numbers, 5, 100);
-        System.out.println("ArrayList after replacing 5 with 100: " + numbers);
+        //System.out.println("ArrayList after replacing 5 with 100: " + numbers);
 
         // Get the frequency of 7 in the list
         int frequency = Collections.frequency(numbers, 7);
-        System.out.println("Frequency of 7 in the ArrayList: " + frequency);
-        */
+        //System.out.println("Frequency of 7 in the ArrayList: " + frequency);
+  
         
     }
 }
