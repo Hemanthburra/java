@@ -6,8 +6,23 @@ public class sai{
         
         //map declaration
         Map<Integer, Integer> mpp = new HashMap<Integer, Integer>();
+        /*
+        .get(key)
+        .remove(key)
+        .clear()
+        .keySet()
+        .size()
+        */
         //vector declaration
         ArrayList<Integer> ans = new ArrayList<>();
+        /*
+        .add(value)
+        .get(value)
+        .remove(value)
+        .set(index,value)
+        .clear()
+        .size()
+        */
         //array declaration
         int[] arr = {1,2,3,4,5};
         
