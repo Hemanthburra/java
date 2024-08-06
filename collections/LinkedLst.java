@@ -6,6 +6,7 @@ public class LinkedLst {
 	public static void main(String args[]) {
 		// interface like list,queue ,Deque is used to implement LinkedList
 		// not synchrozied
+		// by using this LinkedList<>() we can use both deque and linkedlist methods;
 		LinkedList<String> vpp = new LinkedList<>();
 		LinkedList<String> vec = new LinkedList<>();
 		

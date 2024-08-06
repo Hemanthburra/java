@@ -40,7 +40,7 @@ public class priorityQueueMethods {
 		pq.clear();
 		
 		//for max heap
-		PriorityQueue<Integer> p = new PriorityQueue<>(Comparator.reverseOrder());
+//		PriorityQueue<Integer> p = new PriorityQueue<>(Comparator.reverseOrder());
 		//these is used for max heap
 		
 	}

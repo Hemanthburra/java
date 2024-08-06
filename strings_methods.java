@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class strings_methods {
 
-	public static void main(String[] args) {
+	public static void main(String args[]) {
 		String s = new String("hello world!");
 		String s2 = "hello world";
 //		String methods:
